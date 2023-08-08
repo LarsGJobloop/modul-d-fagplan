@@ -24,8 +24,8 @@
         "type": 3
       },
       "seed": 1131628326,
-      "version": 551,
-      "versionNonce": 943331834,
+      "version": 552,
+      "versionNonce": 362351418,
       "isDeleted": false,
       "boundElements": [
         {
@@ -33,7 +33,7 @@
           "id": "_bZrdlOiYiV-RwRb0qpKG"
         }
       ],
-      "updated": 1691405432537,
+      "updated": 1691441442154,
       "link": null,
       "locked": false
     },
@@ -56,11 +56,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1660554918,
-      "version": 456,
-      "versionNonce": 1218633850,
+      "version": 457,
+      "versionNonce": 1958468966,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691399625361,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "text": "\n    {\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    }\n",
@@ -76,10 +76,10 @@
     {
       "id": "98g21xX0qvP9Zvvj0qGuR",
       "type": "text",
-      "x": -184.95140473506535,
-      "y": -13.635165096351159,
-      "width": 1940.2392578125,
-      "height": 145.35829454683318,
+      "x": 376.842830425373,
+      "y": -575.1055746591493,
+      "width": 2862.2324571567665,
+      "height": 214.4319196169493,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -94,19 +94,19 @@
       "frameId": null,
       "roundness": null,
       "seed": 1982972838,
-      "version": 294,
-      "versionNonce": 1957027558,
+      "version": 393,
+      "versionNonce": 859087334,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691440993665,
+      "updated": 1691441473339,
       "link": null,
       "locked": false,
       "text": "Anatomien til en React Komponent",
-      "fontSize": 116.28663563746653,
+      "fontSize": 171.54553569355943,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 102,
+      "baseline": 150,
       "containerId": null,
       "originalText": "Anatomien til en React Komponent",
       "lineHeight": 1.25
@@ -114,10 +114,10 @@
     {
       "id": "rJsFu3vxb7GrO2s7Usw4h",
       "type": "text",
-      "x": -152.64956150243574,
-      "y": 149.00335378918754,
-      "width": 1839.7684326171875,
-      "height": 113.05645131420356,
+      "x": 424.49436811802843,
+      "y": -335.1819437648205,
+      "width": 2714.018335772806,
+      "height": 166.78038192429386,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -132,19 +132,19 @@
       "frameId": null,
       "roundness": null,
       "seed": 1863197350,
-      "version": 438,
-      "versionNonce": 2019060346,
+      "version": 536,
+      "versionNonce": 1095456634,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691440993665,
+      "updated": 1691441473339,
       "link": null,
       "locked": false,
       "text": "Ikke alle Komponenter har alle \"organene\"",
-      "fontSize": 90.44516105136285,
+      "fontSize": 133.4243055394351,
       "fontFamily": 1,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 78,
+      "baseline": 117,
       "containerId": null,
       "originalText": "Ikke alle Komponenter har alle \"organene\"",
       "lineHeight": 1.25
@@ -170,8 +170,8 @@
         "type": 3
       },
       "seed": 702123130,
-      "version": 492,
-      "versionNonce": 1707370298,
+      "version": 493,
+      "versionNonce": 289389222,
       "isDeleted": false,
       "boundElements": [
         {
@@ -179,7 +179,7 @@
           "id": "ROw2O6y6oHPiH10knVisG"
         }
       ],
-      "updated": 1691399625364,
+      "updated": 1691441442154,
       "link": null,
       "locked": false
     },
@@ -202,11 +202,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 598675494,
-      "version": 415,
-      "versionNonce": 344211814,
+      "version": 416,
+      "versionNonce": 1873488570,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691399625364,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "text": "\n    // storing reactive values\n    const [count, setCount] = useState(0)\n",
@@ -240,8 +240,8 @@
         "type": 3
       },
       "seed": 54417318,
-      "version": 582,
-      "versionNonce": 1640350266,
+      "version": 583,
+      "versionNonce": 335377894,
       "isDeleted": false,
       "boundElements": [
         {
@@ -253,7 +253,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1691405389545,
+      "updated": 1691441442154,
       "link": null,
       "locked": false
     },
@@ -276,11 +276,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 405855674,
-      "version": 1039,
-      "versionNonce": 847455398,
+      "version": 1040,
+      "versionNonce": 1294582650,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691399625364,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "text": "\n    Komponenter kan inneholde verdier som du ønsker å bruke i\n    den genererte HTML. Viss disse verdiene endrer seg over tid, såkalte\n    Reaktive Verdier, så settes de inn her.\n",
@@ -314,8 +314,8 @@
         "type": 3
       },
       "seed": 609495142,
-      "version": 645,
-      "versionNonce": 1096248762,
+      "version": 646,
+      "versionNonce": 1172424998,
       "isDeleted": false,
       "boundElements": [
         {
@@ -327,7 +327,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1691405398107,
+      "updated": 1691441442154,
       "link": null,
       "locked": false
     },
@@ -350,11 +350,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 414021882,
-      "version": 1100,
-      "versionNonce": 1296277478,
+      "version": 1101,
+      "versionNonce": 1490502714,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691399625364,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "text": "\n    Komponenter kan inneholde verdier som du ønsker å bruke i\n    den genererte HTML. Viss disse verdiene endrer seg over tid, såkalte\n    Reaktive Verdier, så settes de inn her.\n",
@@ -388,8 +388,8 @@
         "type": 3
       },
       "seed": 1090748966,
-      "version": 684,
-      "versionNonce": 1325294822,
+      "version": 685,
+      "versionNonce": 911848550,
       "isDeleted": false,
       "boundElements": [
         {
@@ -401,7 +401,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1691399635623,
+      "updated": 1691441442154,
       "link": null,
       "locked": false
     },
@@ -424,11 +424,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1686739770,
-      "version": 536,
-      "versionNonce": 148026150,
+      "version": 537,
+      "versionNonce": 1016507642,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691399625364,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "text": "\n    function   Counter   (properties)\n",
@@ -462,8 +462,8 @@
         "type": 3
       },
       "seed": 1932619194,
-      "version": 912,
-      "versionNonce": 1894570022,
+      "version": 913,
+      "versionNonce": 2133997478,
       "isDeleted": false,
       "boundElements": [
         {
@@ -475,7 +475,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1691399635623,
+      "updated": 1691441442154,
       "link": null,
       "locked": false
     },
@@ -498,11 +498,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 623960806,
-      "version": 1907,
-      "versionNonce": 2141019750,
+      "version": 1908,
+      "versionNonce": 1844116922,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691399625364,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "text": "\n    React Komponenter er funksjoner hvor navnet starter med stor bokstav\n    - Parameteren som blir tatt i mot er et objekt\n    - Når du bruker komponenten så vil alle \"HTML attributes\" du setter opp bli gitt\n      videre til komponenten som felter i objektet.\n\n\n    React reserverer et lite utvalg felter til spesiell bruk:\n    - \"children\":\n      Viss Komponenten blir gitt under elementer (barn) så vil de være tilgjengelig\n      her.\n    - \"key\":\n      Intern React property brukes for å holde rede på identiteten til komponenten.\n      Endres den så vil React kjøre funksjonen på nytt (oppdatere komponenten).\n    - \"ref\":\n      Brukes i kombinasjon med useRef for å få tak i, og lagre, den\n      underliggende DOM noden.\n",
@@ -536,8 +536,8 @@
         "type": 3
       },
       "seed": 1332083578,
-      "version": 618,
-      "versionNonce": 550575354,
+      "version": 619,
+      "versionNonce": 2023248614,
       "isDeleted": false,
       "boundElements": [
         {
@@ -549,7 +549,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1691405398107,
+      "updated": 1691441442154,
       "link": null,
       "locked": false
     },
@@ -572,11 +572,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1051005222,
-      "version": 734,
-      "versionNonce": 1987092902,
+      "version": 735,
+      "versionNonce": 972502650,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691399625364,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "text": "\n    // defining event handlers\n    function increment() {\n        console.log(properties.name)\n        setCount(\n            (previousCount) => {return previousCount + 1}\n        )\n    }\n",
@@ -610,8 +610,8 @@
         "type": 3
       },
       "seed": 1187455930,
-      "version": 960,
-      "versionNonce": 1504484090,
+      "version": 961,
+      "versionNonce": 1830356518,
       "isDeleted": false,
       "boundElements": [
         {
@@ -623,7 +623,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1691405403773,
+      "updated": 1691441442154,
       "link": null,
       "locked": false
     },
@@ -646,11 +646,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 1199148262,
-      "version": 1055,
-      "versionNonce": 276397286,
+      "version": 1056,
+      "versionNonce": 1367234362,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691399625364,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "text": "\n    // Defining the HTML\n    return (\n        <div className=\"greeting\">\n            <h1>Hello {properties.name}</h1>\n            \n            <button onClick={logName}>Click Me</button>\n        </div>\n    )\n",
@@ -684,8 +684,8 @@
         "type": 3
       },
       "seed": 2118490726,
-      "version": 1033,
-      "versionNonce": 236137402,
+      "version": 1034,
+      "versionNonce": 1302417766,
       "isDeleted": false,
       "boundElements": [
         {
@@ -697,7 +697,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1691405403773,
+      "updated": 1691441442154,
       "link": null,
       "locked": false
     },
@@ -720,11 +720,11 @@
       "frameId": null,
       "roundness": null,
       "seed": 642000634,
-      "version": 1821,
-      "versionNonce": 54849574,
+      "version": 1822,
+      "versionNonce": 1424187386,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691399625364,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "text": "\n    React komponenter er i bunn og grunn kun funksjoner som returnerer\n    JSX (JavaScript XML). En syntaktisk utvidelse til JavaScript.\n    Denne tillater deg å skrive HTML sammen med JavaScript.\n\n    Går JSX over flere linjer så må du pakke den inn i et sett med\n    paranteser.\n\n    Her bruker du vanlig HTML, samtidig som du kan benytte deg av\n    JavaScript (putt den imellom ett sett med \"{ }\".\n\n    Noter deg og at noen av HTML attributene er skrevet\n    litt annerledes.\n\n    <div class=\"test\"> blir til <div className=\"test\">\n\n    Dette er på bakgrunn av at endel nøkkelord er\n    reservert av JavaScript.\n",
@@ -758,11 +758,11 @@
         "type": 2
       },
       "seed": 44474234,
-      "version": 86,
-      "versionNonce": 903745658,
+      "version": 101,
+      "versionNonce": 67042874,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691399638510,
+      "updated": 1691444795346,
       "link": null,
       "locked": false,
       "points": [
@@ -771,12 +771,12 @@
           0
         ],
         [
-          67.6579615337514,
-          -22.149670878631014
+          62.50913453126259,
+          -25.819694318560096
         ],
         [
-          53.02104452038748,
-          -233.54302101854626
+          64.88385558062873,
+          -218.17209931719606
         ],
         [
           130.55568678218333,
@@ -786,12 +786,12 @@
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "nvcefRLIfv-EJA1odJB5C",
-        "focus": 0.7931255296213143,
+        "focus": 0.8295536114278083,
         "gap": 4.5952365400355575
       },
       "endBinding": {
         "elementId": "DpYqKoqFvb7YgoJBDy9xU",
-        "focus": 0.1755526042555953,
+        "focus": 0.40758892438309574,
         "gap": 1.231957206776201
       },
       "startArrowhead": null,
@@ -818,11 +818,11 @@
         "type": 2
       },
       "seed": 539059130,
-      "version": 71,
-      "versionNonce": 283873766,
+      "version": 72,
+      "versionNonce": 1682555686,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691405393566,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "points": [
@@ -874,11 +874,11 @@
         "type": 2
       },
       "seed": 917267750,
-      "version": 37,
-      "versionNonce": 879420134,
+      "version": 38,
+      "versionNonce": 813951546,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691405398111,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "points": [
@@ -926,11 +926,11 @@
         "type": 2
       },
       "seed": 1180018298,
-      "version": 100,
-      "versionNonce": 1172347878,
+      "version": 101,
+      "versionNonce": 2041736806,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1691405410169,
+      "updated": 1691441442154,
       "link": null,
       "locked": false,
       "points": [
