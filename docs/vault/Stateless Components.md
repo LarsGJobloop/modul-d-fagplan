@@ -112,13 +112,9 @@ function App() {
 Do not use this one. It's discouraged and is only here for completeness
 
 ```jsx
-function Greeting({
-	name
-	}) {
-	return (
-		<h1>Hello {name}</h1>
-	)
-}
+importr {} from 'react'
+
+class
 
 function App() {
 	return <Greeting name="Fiona" />
