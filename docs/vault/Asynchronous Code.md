@@ -1,4 +1,41 @@
+## Problem
+Having a state full component (or parent to component) causes a re execution of all the code on every rerender.
+```jsx
+import { useState } from 'react'
+
+function ProblemComponent() {
+	const [ count, setCount ] = useState(0)
+
+	console.log(`
+		Something caused a 'rerender' of this component.
+		This could be that this component changed its state,
+		or that a ancestor component changed its state.
+	`)
+
+	return (
+		<>
+			<h1>Hello There</h1>
+			<button onClick={() => setCount(old => old + 1)}>Change State</button>
+		</>
+	)
+}
+
+function App() {
+	const [ count, setCount ] = useState(0)
+
+	return (
+		<>
+			<ProblemComponent />
+			<button onClick={() => setCount(old => old + 1)}>Change State</button>			
+		</>
+	)
+}
+```
+
 ## Logging the Component life cycle
+
+A simple construct for feeling out when the various parts of the useEffect hook executes.
+
 ```jsx
 import { useEffect } from 'react'
 
@@ -18,6 +55,7 @@ function Lifecycle() {
 	)
 }
 ```
+
 
 ## Limited Execution
 

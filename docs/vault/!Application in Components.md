@@ -12,7 +12,7 @@
 - [Workflow Pipelines](#workflow-pipelines)
 
 ## [Build Systems](./Build%20Systems.md)
-  Setup and short introduction to the build system ViteJS
+  Setup and short introduction to the build system ViteJS.
   
 ## [Stateless Components](./Stateless%20Components.md)
   Using React for creating components, adding variations. How to make containers and generating lists.
