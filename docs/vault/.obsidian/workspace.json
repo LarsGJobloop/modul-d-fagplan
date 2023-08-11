@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stateless Components.md",
+                "file": "Stateful Reactive Components.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stateless Components.md",
+                "file": "Stateful Reactive Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stateless Components.md",
+                "file": "Stateful Reactive Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stateless Components.md"
+                "file": "Stateful Reactive Components.md"
               }
             }
           }
@@ -148,14 +148,14 @@
   },
   "active": "7fda8fa3da2071f3",
   "lastOpenFiles": [
+    "Stateless Components.md",
+    "Event Handling.md",
+    "Build Systems.md",
+    "Contextual and Application State.md",
+    "Routing.md",
     "Asynchronous Code.md",
     "Workflow Pipelines.md",
-    "Stateless Components.md",
-    "Routing.md",
     "Stateful Reactive Components.md",
-    "Event Handling.md",
-    "Contextual and Application State.md",
-    "Build Systems.md",
     "!Application in Components.md",
     "misc/Example User Story.md",
     "misc"

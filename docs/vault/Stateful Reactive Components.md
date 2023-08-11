@@ -1,4 +1,7 @@
 ## Internal State
+
+To keep track of state that creates variation in the document, we have to coordinate with React. The way this is done is through a function ( called a hook)
+
 ```jsx
 import { useState } from 'react'
 
@@ -24,7 +27,8 @@ function Counter() {
 ```
 
 ## Controlling the DOM state
-  Some HTML elements keeps track of their internal state themselves. To keep the state tracked by React synchronized with the state tracked by the DOM we simply overwrite the DOM state with our own state.
+
+Some HTML elements keeps track of their internal state themselves. To keep the state tracked by React synchronized with the state tracked by the DOM we simply overwrite the DOM state with our own state.
 ```jsx
 import { useState } from 'react'
 
