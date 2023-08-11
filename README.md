@@ -28,7 +28,7 @@ npm remove <NAME_OF_PACKAGE> # Removes named package from project
 3. A version control system (use [git](https://git-scm.com/))
 
 
-## [Frontend Curiculum](./docs/vault/!Application%20in%20Components.md)
+## [Module D Curiculum](./docs/vault/!Application%20in%20Components.md)
 
 ## Useful Links
 
