@@ -1,7 +1,15 @@
 At its core React is a templating framework for creating reusable pieces of HTML through an extension to the JavaScript language with something we calls JSX (JavaScript Syntax Extension).
 
-## Basic
+## Content
+- [JSX Basics](#jsx-basics)
+- [JSX and JavaScript](#jsx-and-javascript)
+- [Properties](#properties)
+
+## JSX Basics
+
 ```jsx
+const newType = ( <h1>Hello World</h1> )
+
 function Showcase() {
 	return (
 		<h1 className="my-component">I am a Static React Component</h1>
@@ -13,9 +21,9 @@ function App() {
 }
 ```
 
-The fundation for this is with a special type, which is in essence just HTML wrapped inside a set of parentheses. We are also commonly setting these up as a set of function which we can export and import in our application.
+The foundation for this is with a special type, which is in essence just HTML wrapped inside a set of parentheses. We are also commonly setting these up as a set of function which we can export and import in our application.
 
-Note that due to this being HTML inside JavaScript some of the HTML attributes have changed their name, the convention followed is the *lowerCaseCamelCase* rather than the *lower-case-kebab-case*. This is due to JavaScript using a set of these as language keywords.
+Note that due to this being HTML inside JavaScript some of the HTML attributes have changed their name, the convention followed is the *lowerCaseCamelCase* rather than the *lower-case-kebab-case*. This is due to JavaScript using a set of these word as language keywords.
 
 ## JSX and JavaScript
 
@@ -24,7 +32,7 @@ function JavaScriptInComponents() {
 	const textMessage = "A JavaScript string"
 
 	return (
-		<h1 className="my-component">{textMessage}</h1>
+		<h1 className="my-component">{ textMessage }</h1>
 	)
 }
 
@@ -41,7 +49,7 @@ function Greeting(properties) {
 	console.log(properties)
 
 	return (
-		<h1>Hello {properties.name}</h1>
+		<h1>Hello { properties.name }</h1>
 	)
 }
 
@@ -59,7 +67,7 @@ function CustomContainer(properties) {
 
 	return (
 		<div>
-			{properties.children}
+			{ properties.children }
 		</div>
 	)
 }
@@ -84,8 +92,8 @@ function TodoList(properties) {
 			{
 				properties.todoes.map((todo) => {
 					return (
-						<li key={todo.id}>
-							<h2>{todo.name}</h2>
+						<li key={ todo.id }>
+							<h2>{ todo.name }</h2>
 						</li>
 					)
 				})
@@ -102,13 +110,13 @@ function App() {
 		{id: 3, name: "Gre"},
 	]
 
-	return <TodoList todoes={todoes} />
+	return <TodoList todoes={ todoes } />
 }
 ```
 
 To dynamically generate a list of some elements from a data source we put all of our data into a list (JavaScript Array) and then use the **Array.map** method to generate a list of JSX elements which we can use in our application.
 
-Mind due to React internals  
+Due to how React keeps track of the generated JSX nodes we have to pass in a **key** property to the returned JSX element. While not required for the example shown here, avoiding to do so can lead to issues if we start to sort the list we are using.
 
 ## Properties Destructuring
 
@@ -123,7 +131,7 @@ function Greeting(properties) {
 	// Component logic
 	
 	return (
-		<h1>Hello {name}</h1>
+		<h1>Hello { name }</h1>
 	)
 }
 

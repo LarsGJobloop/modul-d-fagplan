@@ -148,16 +148,16 @@
   },
   "active": "7fda8fa3da2071f3",
   "lastOpenFiles": [
-    "Stateful Reactive Components.md",
-    "!Application in Components.md",
     "Asynchronous Code.md",
-    "Build Systems.md",
-    "Event Handling.md",
-    "Routing.md",
-    "Contextual and Application State.md",
-    "misc/Example User Story.md",
-    "misc",
+    "Workflow Pipelines.md",
     "Stateless Components.md",
-    "Workflow Pipelines.md"
+    "Routing.md",
+    "Stateful Reactive Components.md",
+    "Event Handling.md",
+    "Contextual and Application State.md",
+    "Build Systems.md",
+    "!Application in Components.md",
+    "misc/Example User Story.md",
+    "misc"
   ]
 }

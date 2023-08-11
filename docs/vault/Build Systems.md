@@ -13,7 +13,7 @@
 - Two versions of code, Source Code & Build Artifacts
 
 ## More problems
-- How should the modules be combined
+- How should the modules be combined - ES6 Modules
 - Web Sites / Application consists of more than just JavaScript files (HTML, CSS)
 
 ## Build System<br>*- ViteJS*
@@ -29,7 +29,8 @@ npx vite
 ```
 A web server should now be serving your application to your local computer.
 See the output in the terminal for which address it is hosted on.
-- Standardize the development process, by setting up a script in `package.json`
+
+Standardize the development process, by setting up a script in `package.json`
 ```json
 {
 	scripts: {
@@ -37,6 +38,7 @@ See the output in the terminal for which address it is hosted on.
 	}
 } 
 ```
+
 To start up the development server now just run
 ```sh
 npm run dev
@@ -46,8 +48,10 @@ npm run dev
 ```sh
 npx vite build
 ```
+
 The compiled files should (by default) be put into a new folder named `dist`
-- Standardize the build step, by setting up a script in `package.json`
+
+Standardize the build step, by setting up a script in `package.json`
 ```json
 {
 	scripts: {
@@ -56,6 +60,7 @@ The compiled files should (by default) be put into a new folder named `dist`
 	}
 } 
 ```
+ 
  To create a set of new build artifacts run
  ```sh
  npm run build
@@ -73,12 +78,11 @@ Some common patterns:
   Presentation Layer, Business Logic Layer, Data Access Layer
 - **Modular by Feature:**
   Split according to features / user stories
-  "User should "
 - **Domain-Driven Design:**
   Split according to perspective, Customer Support, Engineering, Administration
 - **Event-Driven Architecture:**
-  Divide the application into events and functions that handles those events
+  Divide the application into event emitters and functions that consume those events
 - **Plugin or Extension Architecture:**
-  Create a framework with hooks, to allow modules to be defined later and plugged into the system.
+  Create a framework with hooks to allow modules to be defined at a later stage and plugged into the system.
 - **Aspect-Oriented Programming:**
   Extract logic which applies to multiple parts into separate modules. Logging, Security, Authentication, Authorization
