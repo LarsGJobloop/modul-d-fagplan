@@ -12,9 +12,16 @@
 - [Workflow Pipelines](#workflow-pipelines)
 
 ## [Build Systems](./Build%20Systems.md)
-Setup and short introduction to the build system.
-- [ViteJS](https://vitejs.dev/)
-  
+Short introduction to build systems, with focus on [ViteJS](https://vitejs.dev/)
+
+### Prerequisite
+NodeJS and NPM installed, [install link](https://nodejs.org/en).
+Commands for checking that everything is setup correctly:
+1. `node --version`
+2. `npm --version`
+They will return the currently installed version if present or an error about not found.
+Any NodeJS version greater than 16 is fine. [NodeJS release schedule](https://github.com/nodejs/release#release-schedule)
+
 ## [Stateless Components](./Stateless%20Components.md)
 Using React for creating components, adding variations. How to make containers and generating lists.
   
@@ -29,12 +36,12 @@ React makes use of an internal loop for keeping track of when and what to update
 
 ## [Contextual and Application State](./Contextual%20and%20Application%20State.md)
 State which belongs to a single component is handle by an internal React hook.
-Other forms of state might not belong to a single component but to a group of components, like which part of a multi tab page is currently active. You also have state which is part of the whole application, like the currently logged in  user.
+Other forms of state might not belong to a single component but to a group of components, like which part of a multi tab page is currently active. You also have state which is part of the whole application, like who is currently logged in.
 
-React provides the Context API for state that is shared between components.
-For more complex interactions there are other libraries that is recommended.
-	- [Zustand](https://github.com/pmndrs/zustand)
-	- [Redux](https://react-redux.js.org/)
+React provides the Context API for state that is shared between components and that seldom changes.
+If you have state that changes frequently and you want access to from multiple parts of your application you should try one of these libraries.
+- [Zustand](https://github.com/pmndrs/zustand)
+- [Redux](https://react-redux.js.org/)
 
 ## [Routing](./Routing.md)
 
@@ -44,5 +51,5 @@ React does not provide any inbuilt interface for interacting with that state and
 - [React Router](https://reactrouter.com/)
 
 ## [Workflow Pipelines](./Workflow%20Pipelines.md)
-	- Code Change Pipeline
-	- Deployment Pipeline
+- Code Change Pipeline
+- Deployment Pipeline

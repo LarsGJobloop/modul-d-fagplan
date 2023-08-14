@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fae2ca04b679aa7b",
+        "id": "48c498d328ea366d",
         "type": "tabs",
         "children": [
           {
-            "id": "7fda8fa3da2071f3",
+            "id": "3f8b1910597e1aec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stateful Reactive Components.md",
+                "file": "Build Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stateful Reactive Components.md",
+                "file": "Build Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stateful Reactive Components.md",
+                "file": "Build Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stateful Reactive Components.md"
+                "file": "Build Systems.md"
               }
             }
           }
@@ -146,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7fda8fa3da2071f3",
+  "active": "3f8b1910597e1aec",
   "lastOpenFiles": [
+    "!Application in Components.md",
+    "Stateful Reactive Components.md",
     "Stateless Components.md",
-    "Event Handling.md",
     "Build Systems.md",
+    "Event Handling.md",
     "Contextual and Application State.md",
     "Routing.md",
     "Asynchronous Code.md",
     "Workflow Pipelines.md",
-    "Stateful Reactive Components.md",
-    "!Application in Components.md",
     "misc/Example User Story.md",
     "misc"
   ]
