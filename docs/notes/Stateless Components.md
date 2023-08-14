@@ -8,7 +8,7 @@ At its core React is a templating framework for creating reusable pieces of HTML
 ## JSX Basics
 
 ```jsx
-const newType = ( <h1>Hello World</h1> )
+const jsxType = ( <h1>Hello World</h1> )
 
 function Showcase() {
 	return (
