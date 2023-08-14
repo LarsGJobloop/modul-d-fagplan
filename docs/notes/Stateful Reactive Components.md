@@ -1,6 +1,8 @@
 ## Internal State
 
-To keep track of state that creates variation in the document, we have to coordinate with React. The way this is done is through a function ( called a hook)
+To keep track of state that creates variation in the document, we have to coordinate with React. The way this is done is through a function ( called a hook). What is returned from the **React.useState** function is an array, where the first item is the current state and the second item is a function for setting that state.
+
+This is done so React can collect all changes that is happening into a batch. And then recreate the DOM in one pass rather then causing a redraw for each state change.
 
 ```jsx
 import { useState } from 'react'
@@ -26,6 +28,27 @@ function Counter() {
 }
 ```
 
+This also means that if we do not pass the *state setter* a function for updating the state, but rely on the current state for our update things might go awry. Test out the following example
+```jsx
+import { useState } from 'react'
+
+function Counter() {
+	const [ count, setCount ] = useState(0)
+	
+	function incrementThrice() {
+		setCount(count + 1)
+		setCount(count + 1)
+		setCount(count + 1)
+	}
+	
+	return (
+		<div>
+			<h2>Current Count is: {count}</h2>
+			<button onClick={incrementThrice}>Increment Thrice?</button>
+		</div>
+	)
+}
+```
 ## Controlling the DOM state
 
 Some HTML elements keeps track of their internal state themselves. To keep the state tracked by React synchronized with the state tracked by the DOM we simply overwrite the DOM state with our own state.

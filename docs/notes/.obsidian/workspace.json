@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Event Handling.md",
+                "file": "Stateful Reactive Components.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Event Handling.md",
+                "file": "Stateful Reactive Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Event Handling.md",
+                "file": "Stateful Reactive Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Event Handling.md"
+                "file": "Stateful Reactive Components.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "3f8b1910597e1aec",
   "lastOpenFiles": [
+    "!Application in Components.md",
+    "Event Handling.md",
     "Stateless Components.md",
     "Stateful Reactive Components.md",
-    "Event Handling.md",
-    "!Application in Components.md",
     "Build Systems.md",
     "Contextual and Application State.md",
     "Routing.md",
