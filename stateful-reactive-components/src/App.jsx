@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+
+import { BasicModeling } from './components/BasicModeling/BasicModeling';
 import { BasicState } from './components/BasicState/BasicState';
 import { StateCaveat } from './components/StateCaveat/StateCaveat';
 
@@ -29,7 +31,7 @@ function App() {
           <section id='state-modeling' className={hash === "state-modeling" ? "active" : ""}>
             <h2>State Modeling</h2>
 
-            <BasicState />
+            <BasicModeling />
           </section>
           
           <section id='basic-state' className={hash === "basic-state" ? "active" : ""}>
