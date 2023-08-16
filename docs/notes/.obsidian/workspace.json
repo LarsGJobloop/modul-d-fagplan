@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3f8b1910597e1aec",
+            "id": "6f707292e970fde7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workflow Pipelines.md",
+                "file": "Asynchronous Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workflow Pipelines.md",
+                "file": "Asynchronous Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Workflow Pipelines.md",
+                "file": "Asynchronous Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workflow Pipelines.md"
+                "file": "Asynchronous Code.md"
               }
             }
           }
@@ -146,17 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f8b1910597e1aec",
+  "active": "6f707292e970fde7",
   "lastOpenFiles": [
+    "!Application in Components.md",
+    "step-by-step/2. Minimalistic Start.md",
+    "step-by-step/1. Setting up a new React Application.md",
     "Stateless Components.md",
+    "step-by-step",
     "Stateful Reactive Components.md",
     "Routing.md",
+    "Workflow Pipelines.md",
     "Event Handling.md",
     "Contextual and Application State.md",
-    "Asynchronous Code.md",
     "Build Systems.md",
-    "!Application in Components.md",
-    "Workflow Pipelines.md",
+    "Asynchronous Code.md",
     "misc/Example User Story.md",
     "misc"
   ]

@@ -207,3 +207,17 @@ async function fetchData(url, dataCallback, errorCallback) {
 	dataCallback(data)
 }
 ```
+
+## Addendum
+
+### Value types and reference types
+Consider the following and guess what will be printed to the console.
+```js
+const numberA = 5
+const numberB = 5
+console.log(numberA === numberB)
+
+const objectA = { id: 1, data: "Foobar" }
+const objectB = { id: 1, data: "Foobar" }
+console.log(objectA === objectB)
+```
