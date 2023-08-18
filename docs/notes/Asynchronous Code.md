@@ -187,7 +187,7 @@ function useApiData(url) {
 * @param {(data: any) => void}
 * @param {(error: any) => void}
 */
-async function fetchData(url, dataCallback, errorCallback) {
+async function fetchData(url, dataHandler, errorHandler) {
 	const response = await fetch(url)
 		.catch(() => {
 			errorCallback("Could not reach server")
@@ -195,19 +195,69 @@ async function fetchData(url, dataCallback, errorCallback) {
 		})
 	
 	if(!response.ok) {
-		errorCallback("Server responded with error")
+		errorHandler(`Server responded with error ${response.status}`)
 		return
 	}
 	
 	const data = await response.json()
 		.catch(() => {
-			errorCallback("Could not parse response")
+			errorHandler("Could not parse response")
 			return
 		})
-	dataCallback(data)
+		
+	dataHandler(data)
 }
 ```
 
+## Cleanup
+Some functions in programming have what we call *side effects*. They causes something to happen elsewhere which changes the state of our application. These are likely to require some form of cleanup to reset the system to the state it was in before the function call.
+
+```jsx
+import { useEffect, useState } from 'react'  
+
+function ComponentWithSideEffect() {
+	const [ count, setCount ] = useState(0)
+	useEffect(
+		() => {
+			setInterval(
+				() => {
+					console.log("Interval passed")
+					setCount(oldCount => oldCount + 1)
+				},
+				1000
+			)
+		},
+		[]
+	)
+	
+	return (
+		<div>
+			<h2>Component with an Effect</h2>
+			<h3>Counter: {count}</h3>
+		</div>
+	)
+}
+
+function App() {
+	const [ show, setShow ] = useState(true)
+
+	function toggle() {
+		setShow(old => !old)
+	}
+
+	return (
+		<div>
+			<h1>Look at the console</h1>
+			<button onClick={toggle}>Toggle</button>
+			{
+				show
+				? <ComponentWithSideEffect />
+				: <h2>Dismounted</h2>
+			}
+		</div>
+	)
+}
+```
 ## Addendum
 
 ### Value types and reference types
@@ -221,3 +271,4 @@ const objectA = { id: 1, data: "Foobar" }
 const objectB = { id: 1, data: "Foobar" }
 console.log(objectA === objectB)
 ```
+Did the result diverge from your expectation? If so, in what way, and why?

@@ -21,7 +21,9 @@ function App() {
 }
 ```
 
-The foundation for this is with a special type, which is in essence just HTML wrapped inside a set of parentheses. We are also commonly setting these up as a set of function which we can export and import in our application.
+The foundation for this is with a special type introduced through an extension to the JavaScript language called JSX or JavaScript XML. These are defined by using a set of parentheses and within those we can write our HTML.
+
+The way these are commonly setup is through functions which returns JSX, it is this set of functions that we call **Components**. Combine this with EcmaScript Modules and you have quite capable tools for creating expressive applications with a set of tailored components libraries.
 
 Note that due to this being HTML inside JavaScript some of the HTML attributes have changed their name, the convention followed is the *lowerCaseCamelCase* rather than the *lower-case-kebab-case*. This is due to JavaScript using a set of these word as language keywords.
 
