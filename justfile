@@ -1,7 +1,11 @@
+# "Alias" for $just --ls
+help:
+  just --list
+
 # Spits put the markown files into a ??? format
 create:
-    echo 'Creating ??? files'
+  echo 'Creating ??? files'
 
 # Publishes the build artifacts to some service
 publish:
-    echo 'Publishing artifacts'
+  echo 'Publishing artifacts'

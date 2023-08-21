@@ -8,24 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6f707292e970fde7",
+            "id": "99321eb25e4d90b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "step-by-step/2. Minimalistic Start.md",
+                "file": "Stateful Reactive Components.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "99321eb25e4d90b6",
+            "id": "9d9ff5d0da0c05ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "course/!Overview - Lectures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "853da6e0a53ef025",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Asynchronous Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -159,22 +171,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "99321eb25e4d90b6",
+  "active": "9d9ff5d0da0c05ec",
   "lastOpenFiles": [
-    "step-by-step/2. Minimalistic Start.md",
+    "Stateless Components.md",
+    "Event Handling.md",
+    "Build Systems.md",
+    "Asynchronous Code.md",
+    "!Application in Components.md",
     "course/!Overview - Lectures.md",
+    "Stateful Reactive Components.md",
+    "misc/Pokedex - User Stories.md",
+    "Contextual and Application State.md",
+    "step-by-step/2. Minimalistic Start.md",
     "course",
     "step-by-step/1. Setting up a new React Application.md",
-    "!Application in Components.md",
-    "Stateful Reactive Components.md",
-    "Event Handling.md",
-    "Stateless Components.md",
-    "Asynchronous Code.md",
     "step-by-step",
     "Routing.md",
     "Workflow Pipelines.md",
-    "Contextual and Application State.md",
-    "Build Systems.md",
     "misc/Example User Story.md",
     "misc"
   ]

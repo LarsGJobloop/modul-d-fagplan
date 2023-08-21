@@ -42,7 +42,7 @@ State which belongs to a single component is handle by an internal React hook.
 Other forms of state might not belong to a single component but to a group of components, like which part of a multi tab page is currently active. You also have state which is part of the whole application, like who is currently logged in.
 
 React provides the Context API for state that is shared between components and that seldom changes.
-If you have state that changes frequently and you want access to from multiple parts of your application you should try one of the more complex statemanagment libraries.
+If you have state that changes frequently and you want access to from multiple parts of your application you should try one of the more complex state management libraries.
 - [Zustand](https://github.com/pmndrs/zustand)
 - [Redux](https://react-redux.js.org/)
 
@@ -54,5 +54,9 @@ React does not provide any inbuilt interface for interacting with that state and
 - [React Router](https://reactrouter.com/)
 
 ## [Workflow Pipelines](./Workflow%20Pipelines.md)
+- Code Change Pipeline
+- Deployment Pipeline
+
+## [Fullstack Frameworks](./Workflow%20Pipelines.md)
 - Code Change Pipeline
 - Deployment Pipeline
