@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stateful Reactive Components.md",
+                "file": "course/!Overview - Lectures.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "course/!Overview - Lectures.md",
+                "file": "Asynchronous Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,22 +170,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d9ff5d0da0c05ec",
+  "active": "99321eb25e4d90b6",
   "lastOpenFiles": [
+    "!Application in Components.md",
+    "Stateful Reactive Components.md",
+    "Asynchronous Code.md",
+    "Routing.md",
+    "course/!Overview - Lectures.md",
     "Stateless Components.md",
     "Event Handling.md",
     "Build Systems.md",
-    "Asynchronous Code.md",
-    "!Application in Components.md",
-    "course/!Overview - Lectures.md",
-    "Stateful Reactive Components.md",
     "misc/Pokedex - User Stories.md",
     "Contextual and Application State.md",
     "step-by-step/2. Minimalistic Start.md",
     "course",
     "step-by-step/1. Setting up a new React Application.md",
     "step-by-step",
-    "Routing.md",
     "Workflow Pipelines.md",
     "misc/Example User Story.md",
     "misc"
