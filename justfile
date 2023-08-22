@@ -1,5 +1,5 @@
-# "Alias" for $just --ls
-help:
+# Displays available actions
+defult:
   just --list
 
 # Spits put the markown files into a ??? format
