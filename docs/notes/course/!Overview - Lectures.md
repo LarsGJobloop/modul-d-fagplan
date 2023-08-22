@@ -6,7 +6,7 @@ Each week is divide up into 6 one hour lectures.
 ## Lectures
 
 ### Week #1
-**Task: [Stateless Application](./tasks/1\ Stateless\ Application.md)**
+**Task: [Stateless Application](../tasks/1%20Stateless%20Application.md)**
 
 1. Introduction and setup
 	1. Problems with pure HTML, CSS and JavaScript?
@@ -54,7 +54,7 @@ Each week is divide up into 6 one hour lectures.
    [TODO: Video]()
 
 ### Week #2
-**Task: [Stateful Systems](./tasks/2\ Stateful\ System.md)**
+**Task: [Stateful Systems](../tasks/2%20Stateful%20System.md)**
 
 1. Event Handling
 	1. Inline handlers
@@ -96,7 +96,7 @@ Each week is divide up into 6 one hour lectures.
 	   [TODO: Video]()
 
 ### Week #3
-**Task: [Large System](./tasks/3\ Larger\ Systems.md)**
+**Task: [Large System](../tasks/3%20Larger%20Systems.md)**
 
 1. Setting up multiple pages
 	1. React Router
