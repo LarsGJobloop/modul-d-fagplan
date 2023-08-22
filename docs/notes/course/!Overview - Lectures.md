@@ -1,10 +1,12 @@
 # Lectures
 
+Each week is divide up into 6 one hour lectures.
 ## Content
 
 ## Lectures
 
 ### Week #1
+**Task: [Stateless Application](./tasks/1\ Stateless\ Application.md)**
 
 1. Introduction and setup
 	1. Problems with pure HTML, CSS and JavaScript?
@@ -12,29 +14,32 @@
 	   [TODO: Video]()
 	3. Setting up your first project
 	   [LINK: Video]()
-
-1. Local development
+	   
+2. Local development
 	1. JSX Type
 	   [LINK: Video]()
 	2. A component named App
 	   [LINK: Video]()
-2. Components and properties
+	   
+3. Components and properties
 	1. JavaScript in JSX
 	   [LINK: Video]()
 	2. Passing in arguments to components
 	   [LINK: Video]()
 	3. Custom containers, aka the Children property
 	   [TODO: Video]()
-3. Build Systems
+	   
+4. Build Systems
 	1. Module based projects
 	   [TODO: Video]()
 	2. Building with ViteJS
 	   [TODO: Video]()
-	3. Source files contra Artifacts
+	3. Source files and Artifacts
 	   [TODO: Video]()
 	4. Including non code files, CSS, Images, ++
 	   [TODO: Video]()
-4. Deploying your project
+	   
+5. Deploying your project
 	1. Deploy pipeline
 	   [TODO: Video]()
 	2. Hosting providers
@@ -49,6 +54,7 @@
    [TODO: Video]()
 
 ### Week #2
+**Task: [Stateful Systems](./tasks/2\ Stateful\ System.md)**
 
 1. Event Handling
 	1. Inline handlers
@@ -63,6 +69,7 @@
 	   [TODO: Video]()
 	3. Deriving values from states
 	   [TODO: Video]()
+	   
 3. Virtual DOM
 	1. Batching DOM updates
 	   [TODO: Video]()
@@ -78,6 +85,7 @@
 	   [TODO: Video]()
 	3. Effects that needs cleanup
 	   [TODO: Video]()
+	   
 5. Fifth hour
 	1. ???
    
@@ -88,6 +96,7 @@
 	   [TODO: Video]()
 
 ### Week #3
+**Task: [Large System](./tasks/3\ Larger\ Systems.md)**
 
 1. Setting up multiple pages
 	1. React Router
@@ -100,22 +109,43 @@
 	   [TODO: Video]()
    
 2. URL as state
-	1. 
-3. Third hour
-    
+	1. URL parts
+	   [TODO: Video]()
+	2. Reading the URL
+	   [TODO: Video]()
+
+3. Shared state
+	1. React Context
+	   [TODO: Video]()
+	2. Abstracting contexts
+	   [TODO: Video]()
+  
 4. Fourth hour
+
 5. Fifth hour
    
 6. Sixth hour
 
 ### Week #4
 
-1. First hour
+1. Fuller frameworks
+	1. Serverless NextJS, Remix,
+	2. Static Site Generators, Astro
    
-2. Second hour
-3. Third hour
+2. Software Development Lifecycle
+	1. Idea
+	2. User Journey
+	3. Design and Architecture
+	5. Code
+	6. Testing
+	7. Deployment
+	8. Monitoring
+	9. Repeat
+
+4. Third hour
     
 4. Fourth hour
+
 5. Fifth hour
    
 6. Sixth hour

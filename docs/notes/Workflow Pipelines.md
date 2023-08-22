@@ -21,7 +21,7 @@ When we want to publish our project there are multiple things we need to do.
 
 1. Create a repository on [GitHub](https://github.com/)
 2. Connect repository to [Netlify](https://www.netlify.com/)
-3. Watch our project being built and hosted on Netlify
+3. Watch your project being built and hosted on Netlify
 4. Navigate to the returned URL
 
 ### Daily work
@@ -38,7 +38,7 @@ All the files that is part of the project
 The files resulting from transforming the source files into something that is optimized for delivering to the end user.
 
 ## Web Server
-The computer that host your project and makes it available to the rest of the world.
+The computer that host your project and makes it available to the rest of the internet.
 
 Development:
 	This is the development server
