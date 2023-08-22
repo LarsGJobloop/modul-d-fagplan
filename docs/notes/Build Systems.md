@@ -34,7 +34,7 @@ Standardize the development process, by setting up a script in `package.json`
 ```json
 {
 	"scripts": {
-	 "dev": "vite"
+		"dev": "vite"
 	}
 } 
 ```
