@@ -33,7 +33,7 @@ See the output in the terminal for which address it is hosted on.
 Standardize the development process, by setting up a script in `package.json`
 ```json
 {
-	scripts: {
+	"scripts": {
 	 "dev": "vite"
 	}
 } 
@@ -54,7 +54,7 @@ The compiled files should (by default) be put into a new folder named `dist`
 Standardize the build step, by setting up a script in `package.json`
 ```json
 {
-	scripts: {
+	"scripts": {
 		"dev": "vite",
 		"build": "vite build"
 	}
