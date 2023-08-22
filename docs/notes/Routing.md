@@ -160,7 +160,7 @@ function Overview() {
 	)
 }
 
-function Sales() 
+function Sales() {
 	return (
 		<>
 			<h2>Here are this months sales</h2>
