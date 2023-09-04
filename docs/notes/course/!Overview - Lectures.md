@@ -46,7 +46,7 @@ Each week is divide up into 6 one hour lectures.
 	   [TODO: Video]()
 	3. Netlify step-by-step
 	   [TODO: Video]()
-   
+
 6. Generating components from data
 	1. Creating lists of JSX elements
 	2. Mapping over lists of data

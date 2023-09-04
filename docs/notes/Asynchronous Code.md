@@ -37,21 +37,29 @@ function App() {
 A simple construct for feeling out when the various parts of the useEffect hook executes.
 
 ```jsx
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 function Lifecycle() {
+	const [state, setState] = useState(false)
+
+	console.log("This components state, or an ancestor components state changed")
+
 	useEffect(
 		() => {
-			console.log("This component entered the stage")
+			console.log("This component got mounted")
 
 			return () => {
-				console.log("This component left the stage")
+				console.log("This component got unmounted")
 			}
 		}
 	)
 
+	function update() {
+		setState(previous => !previous)
+	}
+
 	return (
-		<h1>Hello There</h1>
+		<button onClick={update}>Rerender</button>
 	)
 }
 ```
